@@ -1,0 +1,452 @@
+{
+ "meta": {
+  "kaynak": "Marifetname II. Fen: Dört halita (s.346-348) + Hıfzıssıhha erkânından mizaçlar ve on alâmet (s.472-474) + yaş/cinsiyet mizaç notları (s.346)",
+  "amac": "Uygulamanın TEST MODÜLÜ: yüzden değil, öz-bildirimle klasik dört mizacın belirlenmesi. Yüz karnesinin yanına konacak ikinci mercek.",
+  "bilimsel_cerceve": "Dört hılt teorisi tıbben geçersizdir; burada kültürel-tarihsel bir tipoloji ve öz-düşünüm çerçevesi olarak kullanılır. Uygulamada bu not görünür olmalı.",
+  "modern_kopru": "Galen mizaçları modern kişilik literatüründe kabaca iki eksene oturtulmuştur (Eysenck'in klasik eşlemesi): dışadönüklük ve duygusal denge. Sentez raporunda 'demevî ~ dışadönük-dengeli, safravî ~ dışadönük-tepkisel, balgamî ~ içedönük-dengeli, sevdavî ~ içedönük-duyarlı' köprüsü kurulabilir - kesin denklik iddiası olmadan."
+ },
+ "eksenler": {
+  "aciklama": "Metnin on alâmeti iki eksen üzerinde okunur: HARARET (sıcak-soğuk) ve RUTUBET (nemli-kuru). Kadranlar: sıcak+nemli=Demevî(kan), sıcak+kuru=Safravî(safra), soğuk+nemli=Balgamî(balgam), soğuk+kuru=Sevdavî(sevda).",
+  "kaynak_notu": "Metin mizaçları 'demevî' vb. sıfatlarla değil, 'kanın/balgamın/safranın/sevdânın çokluğu' diye anar; klasik adlar kolaylık için eklendi."
+ },
+ "on_alamet": [
+  {
+   "no": 1,
+   "ad": "Dokunma (lems)",
+   "kural": "Ten sıcaklığı: sıcak ten -> hararet, serin ten -> soğukluk; itidalde ölçülü",
+   "sayfa": 472
+  },
+  {
+   "no": 2,
+   "ad": "Et-yağ dengesi",
+   "kural": "Etin çokluğu -> nem+hararet; yağın çokluğu -> nem+soğukluk; azlık -> kuruluk",
+   "sayfa": 472
+  },
+  {
+   "no": 3,
+   "ad": "Saç-kıl",
+   "kural": "Çok, kıvrık, sert, koyu -> hararet+kuruluk; az, düz, ince, açık -> soğukluk+nem",
+   "sayfa": 473
+  },
+  {
+   "no": 4,
+   "ad": "Beden rengi",
+   "kural": "(Kayıt amaçlı - uygulamada KULLANMA: ten rengi hükmü) beyaz->balgam, kırmızı->kan, sarı->safra, koyu->sevda",
+   "sayfa": 473,
+   "durum": "haric",
+   "haric_nedeni": "Ten rengi"
+  },
+  {
+   "no": 5,
+   "ad": "Uzuv yapısı",
+   "kural": "Geniş göğüs, güçlü nabız, iri el-ayak-kemik -> hararet; zıtları -> soğukluk",
+   "sayfa": 473
+  },
+  {
+   "no": 6,
+   "ad": "Etkilenme hızı (infial)",
+   "kural": "Bir keyfiyetten çabuk etkilenmek o keyfiyete işarettir (çabuk üşüyen soğuk mizaçlıdır)",
+   "sayfa": 473
+  },
+  {
+   "no": 7,
+   "ad": "Tabii işlevler",
+   "kural": "İşlevleri (iştah, sindirim) tam ve hızlı -> hararet; zayıf/yavaş -> soğukluk",
+   "sayfa": 473
+  },
+  {
+   "no": 8,
+   "ad": "Uyku-uyanıklık",
+   "kural": "Uyku çokluğu -> soğukluk+nem; uyanıklık çokluğu -> hararet+kuruluk; denge -> itidal",
+   "sayfa": 473
+  },
+  {
+   "no": 9,
+   "ad": "Boşaltım",
+   "kural": "(Uygulamada kullanma - tıbbi/mahrem) keskin ve renkli -> hararet",
+   "sayfa": 473,
+   "durum": "haric",
+   "haric_nedeni": "Tıbbi ima"
+  },
+  {
+   "no": 10,
+   "ad": "Nefsî hareketler",
+   "kural": "Öfke, hiddet, cüret, hızlı ve çok konuşma -> hararet; vakar ve hayâ -> soğukluk; kalbin çabuk yumuşaması -> nem; korkaklık/ürkeklik -> kuruluk; duyguların sebatı -> kuruluk, çabuk geçmesi -> nem",
+   "sayfa": 473
+  }
+ ],
+ "mizaclar": [
+  {
+   "id": "demevi",
+   "ad": "Demevî (Kan mizacı)",
+   "kadran": "sıcak + nemli",
+   "hilt": "kan",
+   "fiziksel_isaretler": [
+    "ten sıcak ve dolgun",
+    "yüz ve dil kızarması",
+    "baş dolgunluğu/ağrısı",
+    "esneme, rehavet",
+    "bol terleme"
+   ],
+   "davranis_isaretleri": [
+    "neşeli, canlı, girişken",
+    "çabuk kaynaşan",
+    "iştahlı, hayattan tat alan"
+   ],
+   "ruya_isareti": "rüyada kırmızı ve canlı şeyler görmek",
+   "agiz_tadi": "sabah ağızda tatlılık",
+   "modern_karsilik": "sanguine ~ dışadönük, duygusal olarak dengeli",
+   "profil_taslagi": "Kanı sıcak, meclisin neşesi: çabuk ısınır, kolay sever, sofrayı ve sohbeti şenlendirir. Gölgesi: ölçüyü kaçırma.",
+   "sayfa": 473
+  },
+  {
+   "id": "safravi",
+   "ad": "Safravî (Safra mizacı)",
+   "kadran": "sıcak + kuru",
+   "hilt": "safra",
+   "fiziksel_isaretler": [
+    "daima harareti yüksek",
+    "ağız-burun kuruluğu",
+    "iştah kesilmesi dönemleri",
+    "göz ve tende sarılık (KULLANMA: sağlık/renk)"
+   ],
+   "davranis_isaretleri": [
+    "ateşli, atılgan, önder ruhlu",
+    "çabuk parlayan öfke",
+    "hızlı ve keskin konuşma",
+    "sabırsız"
+   ],
+   "ruya_isareti": "rüyada ateş, güneş, sıcaklık görmek",
+   "agiz_tadi": "sabah ağızda acılık",
+   "modern_karsilik": "choleric ~ dışadönük, tepkisel/ateşli",
+   "profil_taslagi": "İçinde ateş taşıyan öncü: hızlı karar verir, yol açar, beklemeyi sevmez. Gölgesi: kıvılcımın yangına dönmesi.",
+   "sayfa": 474
+  },
+  {
+   "id": "balgami",
+   "ad": "Balgamî (Balgam mizacı)",
+   "kadran": "soğuk + nemli",
+   "hilt": "balgam",
+   "fiziksel_isaretler": [
+    "ten serin ve yumuşak",
+    "sindirim yavaş, geğirme",
+    "çok uyuma",
+    "tükürük bolluğu"
+   ],
+   "davranis_isaretleri": [
+    "sakin, ağır tempolu, soğukkanlı",
+    "zor etkilenen (vurdumduymaz)",
+    "barışçıl, kavgadan uzak"
+   ],
+   "ruya_isareti": "rüyada su, kar, yağmur görmek",
+   "agiz_tadi": "sabah ağızda tuzluluk",
+   "modern_karsilik": "phlegmatic ~ içedönük, duygusal olarak dengeli",
+   "profil_taslagi": "Fırtınada durgun liman: kolay kolay tınmaz, telaşı sevmez, huzuru yayar. Gölgesi: rehavete kapılmak.",
+   "sayfa": 473
+  },
+  {
+   "id": "sevdavi",
+   "ad": "Sevdavî (Sevda mizacı)",
+   "kadran": "soğuk + kuru",
+   "hilt": "sevda",
+   "fiziksel_isaretler": [
+    "beden kuru ve zayıf",
+    "mide ekşimesi",
+    "uykusu hafif"
+   ],
+   "davranis_isaretleri": [
+    "düşüncesi çok, derin kurgular",
+    "melankoliye ve kaygıya meyil",
+    "ürkeklik, temkin",
+    "duyguları kalıcı, unutmaz"
+   ],
+   "ruya_isareti": "rüyada duman, karanlık, koyu şeyler görmek",
+   "agiz_tadi": "sabah ağızda ekşilik",
+   "modern_karsilik": "melancholic ~ içedönük, duyarlı/derin",
+   "profil_taslagi": "Derin kuyu: az konuşur, çok düşünür, ayrıntıyı ve anlamı herkesten önce görür. Gölgesi: kara düşünceye dalmak.",
+   "sayfa": 474
+  }
+ ],
+ "yas_ve_cinsiyet_notu": {
+  "metin": "s.346: Çocuk ve delikanlıların mizacı sıcak-nemli, gençlerinki şiddetli sıcak, yaşlılarınki soğuk-kuru sayılır; metin kadın mizacını erkekten soğuk-nemli kabul eder.",
+  "uygulama_karari": "Yaş notu rapor dilinde kültürel bağlam olarak kullanılabilir; CİNSİYET hükmü kullanılmamalı (genelleme).",
+  "durum": "kismen_haric"
+ },
+ "test": {
+  "yonerge": "5'li ölçek (1=hiç uymaz, 5=tam uyar). T22-T23 çoktan seçmelidir. Puanlama: her madde işaretli eksene (likert-3) kadar katkı verir; eksen toplamlarından kadran, kadrandan mizaç bulunur. T22-T23 doğrudan hılt oyu verir (eşitlik bozucu).",
+  "puanlama_semasi": {
+   "hararet": "Σ(sicak) - Σ(soguk)",
+   "rutubet": "Σ(nem) - Σ(kuru)",
+   "kadran": "hararet>0 & rutubet>0 -> demevi; hararet>0 & rutubet<0 -> safravi; hararet<0 & rutubet>0 -> balgami; hararet<0 & rutubet<0 -> sevdavi",
+   "itidal": "iki eksen de sıfıra yakınsa 'mutedil' profili göster (metnin ideali!)"
+  },
+  "maddeler": [
+   {
+    "id": "T01",
+    "soru": "Ellerim ve tenim genellikle sıcaktır.",
+    "puan": {
+     "sicak": 1
+    },
+    "kaynak": "alâmet 1, s.472"
+   },
+   {
+    "id": "T02",
+    "soru": "Soğuktan herkesten çabuk etkilenir, kolay üşürüm.",
+    "puan": {
+     "soguk": 1
+    },
+    "kaynak": "alâmet 6, s.473"
+   },
+   {
+    "id": "T03",
+    "soru": "Saçım gür ve kalın tellidir.",
+    "puan": {
+     "sicak": 1,
+     "kuru": 1
+    },
+    "kaynak": "alâmet 3, s.473"
+   },
+   {
+    "id": "T04",
+    "soru": "Saçım ince telli ve yumuşaktır.",
+    "puan": {
+     "soguk": 1,
+     "nem": 1
+    },
+    "kaynak": "alâmet 3, s.473"
+   },
+   {
+    "id": "T05",
+    "soru": "Kolay kilo alırım; hatlarım yumuşaktır.",
+    "puan": {
+     "nem": 1
+    },
+    "kaynak": "alâmet 2, s.472"
+   },
+   {
+    "id": "T06",
+    "soru": "Zor kilo alan, kuru/ince bir bedenim var.",
+    "puan": {
+     "kuru": 1
+    },
+    "kaynak": "alâmet 2, s.472"
+   },
+   {
+    "id": "T07",
+    "soru": "Tepkim çabuk gelir; kolay parlarım.",
+    "puan": {
+     "sicak": 1
+    },
+    "kaynak": "alâmet 10 (gadab), s.473"
+   },
+   {
+    "id": "T08",
+    "soru": "Duygularım yavaş oluşur ama uzun süre kalır.",
+    "puan": {
+     "kuru": 1
+    },
+    "kaynak": "alâmet 10 (sebat), s.473"
+   },
+   {
+    "id": "T09",
+    "soru": "Duygularım çabuk gelir, çabuk geçer.",
+    "puan": {
+     "nem": 1
+    },
+    "kaynak": "alâmet 10, s.473"
+   },
+   {
+    "id": "T10",
+    "soru": "Uykuyu çok severim; fırsat bulsam uzun uyurum.",
+    "puan": {
+     "soguk": 1,
+     "nem": 1
+    },
+    "kaynak": "alâmet 8, s.473"
+   },
+   {
+    "id": "T11",
+    "soru": "Az uykuyla idare ederim; geceleri zinde olurum.",
+    "puan": {
+     "sicak": 1,
+     "kuru": 1
+    },
+    "kaynak": "alâmet 8, s.473"
+   },
+   {
+    "id": "T12",
+    "soru": "Hızlı ve bol konuşurum.",
+    "puan": {
+     "sicak": 1
+    },
+    "kaynak": "alâmet 10, s.473"
+   },
+   {
+    "id": "T13",
+    "soru": "Ağırbaşlı ve çekingen bulunurum.",
+    "puan": {
+     "soguk": 1
+    },
+    "kaynak": "alâmet 10 (vakar-hayâ), s.473"
+   },
+   {
+    "id": "T14",
+    "soru": "Kolay ürker, çabuk kaygılanırım.",
+    "puan": {
+     "kuru": 1
+    },
+    "kaynak": "alâmet 10 (korkaklık=kuruluk), s.473"
+   },
+   {
+    "id": "T15",
+    "soru": "Çabuk duygulanır, kolay gözlerim dolar.",
+    "puan": {
+     "nem": 1
+    },
+    "kaynak": "alâmet 10 (kalp yumuşaklığı=nem), s.473"
+   },
+   {
+    "id": "T16",
+    "soru": "İştahım ve sindirimim güçlüdür.",
+    "puan": {
+     "sicak": 1
+    },
+    "kaynak": "alâmet 7, s.473"
+   },
+   {
+    "id": "T17",
+    "soru": "Sindirimim yavaştır; şişkinlik olur.",
+    "puan": {
+     "soguk": 1,
+     "nem": 1
+    },
+    "kaynak": "balgam işaretleri, s.473"
+   },
+   {
+    "id": "T18",
+    "soru": "Atılgan ve hareketli biriyimdir.",
+    "puan": {
+     "sicak": 1
+    },
+    "kaynak": "alâmet 10 (cüret), s.473"
+   },
+   {
+    "id": "T19",
+    "soru": "Yavaş ve sakin bir tempom vardır.",
+    "puan": {
+     "soguk": 1
+    },
+    "kaynak": "alâmet 7, s.473"
+   },
+   {
+    "id": "T20",
+    "soru": "Cildim kurumaya meyillidir.",
+    "puan": {
+     "kuru": 1
+    },
+    "kaynak": "alâmet 1-2, s.472"
+   },
+   {
+    "id": "T21",
+    "soru": "Cildim nemli/canlıdır; bol terlerim.",
+    "puan": {
+     "sicak": 1,
+     "nem": 1
+    },
+    "kaynak": "kan işaretleri, s.473"
+   },
+   {
+    "id": "T22",
+    "soru": "Sabah uyandığımda ağzımda en çok şu tat olur:",
+    "tip": "secim",
+    "secenekler": {
+     "tatlı": {
+      "hilt": "kan"
+     },
+     "tuzlu": {
+      "hilt": "balgam"
+     },
+     "acı": {
+      "hilt": "safra"
+     },
+     "ekşi": {
+      "hilt": "sevda"
+     },
+     "fark etmem": {}
+    },
+    "kaynak": "hılt alâmetleri, s.473-474"
+   },
+   {
+    "id": "T23",
+    "soru": "Rüyalarımda en sık şunlar olur:",
+    "tip": "secim",
+    "secenekler": {
+     "kırmızı, canlı sahneler": {
+      "hilt": "kan"
+     },
+     "su, kar, yağmur": {
+      "hilt": "balgam"
+     },
+     "ateş, güneş, sıcak": {
+      "hilt": "safra"
+     },
+     "duman, karanlık": {
+      "hilt": "sevda"
+     },
+     "hatırlamam": {}
+    },
+    "kaynak": "hılt alâmetleri, s.473-474"
+   },
+   {
+    "id": "T24",
+    "soru": "Düşünceye dalar, kafamda çok senaryo kurarım.",
+    "puan": {
+     "soguk": 1,
+     "kuru": 1
+    },
+    "kaynak": "sevda işaretleri (düşüncenin artması), s.474"
+   },
+   {
+    "id": "T25",
+    "soru": "'Kanı sıcak' diye tarif edilirim.",
+    "puan": {
+     "sicak": 1,
+     "nem": 1
+    },
+    "kaynak": "kan mizacı, s.473"
+   },
+   {
+    "id": "T26",
+    "soru": "Tartışmada sesim yükselir, ateşli savunurum.",
+    "puan": {
+     "sicak": 1,
+     "kuru": 1
+    },
+    "kaynak": "safra işaretleri, s.474"
+   },
+   {
+    "id": "T27",
+    "soru": "Beni bir şey kolay kolay sarsmaz; 'oralı olmaz' derler.",
+    "puan": {
+     "soguk": 1,
+     "nem": 1
+    },
+    "kaynak": "balgam (tabiatı vurdumduymaz), s.473"
+   },
+   {
+    "id": "T28",
+    "soru": "Midem tez ekşir, içim çabuk karışır.",
+    "puan": {
+     "soguk": 1,
+     "kuru": 1
+    },
+    "kaynak": "sevda işaretleri, s.474"
+   }
+  ],
+  "tasarim_notlari": [
+   "Maddeler metindeki alâmetlerin öz-bildirime çevrilmiş hâlidir; tarihî bir 'test' yoktur, bu uyarlama bize aittir ve uygulamada böyle etiketlenmelidir.",
+   "T22/T23 sohbet açıcı 'sihirli' sorulardır - paylaşım kartına konabilir.",
+   "Sağlık verisi toplama izlenimi vermemek için sonuç ekranında 'tıbbi değildir' notu zorunlu."
+  ]
+ }
+}

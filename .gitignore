@@ -1,0 +1,25 @@
+# Flutter/Dart
+**/build/
+**/.dart_tool/
+**/.flutter-plugins*
+**/.packages
+**/pubspec.lock
+*.g.dart
+*.freezed.dart
+# IDE
+.idea/
+*.iml
+.vscode/
+# OS
+.DS_Store
+Thumbs.db
+# Gizli
+.env
+*.keystore
+*.jks
+key.properties
+**/GoogleService-Info.plist
+**/google-services.json
+# Python
+__pycache__/
+*.pyc

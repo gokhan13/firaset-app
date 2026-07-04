@@ -1,0 +1,132 @@
+{
+"meta": {
+  "kaynak": "Marifetname - Seğirme (İhtilaç) s.436-439; Oniki Hayvanlı Türk Takvimi s.294-301; Rüya ve kalp-hayvan sembolleri s.445-448; Nefs mertebeleri s.435",
+  "amac": "Yüz analizinin etrafına örülecek ek modüller: günlük içerik, doğum yılı karakteri, rüya sembolleri.",
+  "cerceve_uyarisi": "Bu modüllerin tamamı fal/işaret geleneğidir; uygulamada 'kültürel miras - eğlence amaçlıdır' etiketi zorunludur. Seğirme ve harf tabiri KİŞİLİK değil KEHANET içeriğidir; sağlık yorumuna dönüştürülmemelidir (sürekli seğirme için 'hekime danışın' notu eklenebilir)."
+},
+"segirme": {
+  "yorum_ilkesi": "Metnin kendi kapanışı (s.439, beyit 57-60): bir yerin seğirirse bu kaidelere bak, işareti anla ve ardından geleceği bekle - hareket ettiren Allah'tır. Uygulama dili: 'gelenek böyle yorumlar'.",
+  "not": "Sağ/sol anlamları OCR'li iki nüsha (beyit+çeviri) karşılaştırılarak alındı; (?) işaretliler nüsha teyidi ister.",
+  "maddeler": [
+{"id":"S-01","uzuv":"başın üstü","sag":"iyi makam-mevki haberi","sol":"iyi makam-mevki haberi","sayfa":438},
+{"id":"S-02","uzuv":"başın ön tarafı","sag":"talih/devlet bulma","sol":"talih/devlet bulma","sayfa":438},
+{"id":"S-03","uzuv":"başın yan tarafı","sag":"hayır","sol":"hayır","sayfa":438},
+{"id":"S-04","uzuv":"alın","sag":"eğlence, keyif","sol":"haber","sayfa":438},
+{"id":"S-05","uzuv":"kaş","sag":"dostluk","sol":"dostluk","sayfa":438},
+{"id":"S-06","uzuv":"iki kaş arası","sag":"zevk","sol":"keder","sayfa":438},
+{"id":"S-07","uzuv":"dil","sag":"hüzün","sol":"coşku, sevinç","sayfa":438},
+{"id":"S-08","uzuv":"göz üstü (kapak dışı)","sag":"kınanma","sol":"süslenme, ziynet","sayfa":438},
+{"id":"S-09","uzuv":"gözbebeği","sag":"sıkıntı","sol":"sevinç","sayfa":438},
+{"id":"S-10","uzuv":"göz kuyruğu","sag":"sevinç (?)","sol":"müjde/mal (?)","sayfa":438,"not":"nüshalar farklı"},
+{"id":"S-11","uzuv":"göz altı","sag":"sevgi","sol":"öfke","sayfa":438},
+{"id":"S-12","uzuv":"yanak","sag":"hayır","sol":"mal","sayfa":438},
+{"id":"S-13","uzuv":"burun","sag":"kahır","sol":"mevki","sayfa":438},
+{"id":"S-14","uzuv":"üst dudak","sag":"rızık","sol":"şenlik","sayfa":438},
+{"id":"S-15","uzuv":"dudak kenarı","sag":"zarar","sol":"esenlik","sayfa":438},
+{"id":"S-16","uzuv":"alt dudak altı","sag":"güzellik","sol":"güzellik","sayfa":438},
+{"id":"S-17","uzuv":"çene","sag":"eğlence","sol":"güzellik","sayfa":438},
+{"id":"S-18","uzuv":"kulak","sag":"hoş haber","sol":"hoş haber","sayfa":438},
+{"id":"S-19","uzuv":"boğaz","sag":"mal","sol":"gam","sayfa":438},
+{"id":"S-20","uzuv":"omuz","sag":"hüzün","sol":"keder","sayfa":438},
+{"id":"S-21","uzuv":"pazu","sag":"rızık","sol":"mal","sayfa":438},
+{"id":"S-22","uzuv":"bilek","sag":"iyi haber","sol":"iyi haber","sayfa":438},
+{"id":"S-23","uzuv":"önkol","sag":"boş söz/kınanma","sol":"ayıp","sayfa":438},
+{"id":"S-24","uzuv":"el bileği üstü","sag":"mal","sol":"zahmet","sayfa":438},
+{"id":"S-25","uzuv":"el sırtı","sag":"hüzün","sol":"şeref","sayfa":438},
+{"id":"S-26","uzuv":"avuç içi","sag":"rızık ve mal","sol":"rızık ve mal","sayfa":438},
+{"id":"S-27","uzuv":"el başparmağı","sag":"yük/sorumluluk","sol":"murada erme","sayfa":438,"not":"çeviride sol 'üzüntü'; beyitte kâm=murad"},
+{"id":"S-28","uzuv":"işaret parmağı","sag":"yeni vesileler","sol":"yeni vesileler","sayfa":438},
+{"id":"S-29","uzuv":"orta parmak (el)","sag":"hüzün","sol":"neşe","sayfa":438},
+{"id":"S-30","uzuv":"yüzük parmağı (el)","sag":"makam","sol":"gam","sayfa":439,"not":"beyit bınsır; çeviri 'serçe' der - klasik sözlük esas alındı"},
+{"id":"S-31","uzuv":"serçe parmak (el)","sag":"mal","sol":"hayır","sayfa":439},
+{"id":"S-32","uzuv":"göğüs","sag":"hüzün","sol":"sevinç","sayfa":439},
+{"id":"S-33","uzuv":"göğüs ucu","sag":"makam","sol":"sevinç","sayfa":439},
+{"id":"S-34","uzuv":"karın","sag":"kavuşma","sol":"neşe/murad","sayfa":439},
+{"id":"S-35","uzuv":"göbek","sag":"hüzün","sol":"esenlik","sayfa":439},
+{"id":"S-36","uzuv":"yan (böğür üstü)","sag":"sıkıntı","sol":"mal","sayfa":439},
+{"id":"S-37","uzuv":"böğür","sag":"mevki","sol":"rızık","sayfa":439},
+{"id":"S-38","uzuv":"uyluk","sag":"güzellik/sevgi","sol":"evlat","sayfa":439},
+{"id":"S-39","uzuv":"kasık","sag":"eşe kavuşma","sol":"yolculuk","sayfa":439,"dikkat":"mahrem alan - uygulamada gösterme"},
+{"id":"S-40","uzuv":"(mahrem)","sag":"çocuk müjdesi","sol":"keder","sayfa":439,"dikkat":"mahrem - gösterme"},
+{"id":"S-41","uzuv":"(mahrem)","sag":"mal","sol":"yol","sayfa":439,"dikkat":"mahrem - gösterme"},
+{"id":"S-42","uzuv":"baldır (üst)","sag":"eğlence","sol":"yolculuk","sayfa":439},
+{"id":"S-43","uzuv":"diz","sag":"hüzün","sol":"sevinç","sayfa":439},
+{"id":"S-44","uzuv":"diz altı","sag":"yol","sol":"keder","sayfa":439},
+{"id":"S-45","uzuv":"incik/bacak","sag":"mal","sol":"mevki","sayfa":439},
+{"id":"S-46","uzuv":"incik önü","sag":"yol","sol":"erzak","sayfa":439,"not":"çeviride 'sırt ortası' - nüsha farkı"},
+{"id":"S-47","uzuv":"baldır içi","sag":"mal","sol":"ayrılık","sayfa":439,"not":"çeviride 'karın arkası'"},
+{"id":"S-48","uzuv":"topuk","sag":"mal","sol":"yolculuk","sayfa":439},
+{"id":"S-49","uzuv":"ayak sırtı","sag":"hüzün","sol":"esenlik","sayfa":439},
+{"id":"S-50","uzuv":"ayak bileği kemiği","sag":"yürüyüş/yolculuk","sol":"mal","sayfa":439,"not":"çeviride 'el kemiği' - bağlam ayak"},
+{"id":"S-51","uzuv":"ayak tabanı","sag":"yol","sol":"şeref","sayfa":439},
+{"id":"S-52","uzuv":"ayak başparmağı","sag":"mal","sol":"murad","sayfa":439},
+{"id":"S-53","uzuv":"ayak 2. parmağı","sag":"iyi haber","sol":"iyi haber","sayfa":439},
+{"id":"S-54","uzuv":"ayak orta parmağı","sag":"çekişme","sol":"çekişme","sayfa":439},
+{"id":"S-55","uzuv":"ayak yüzük parmağı","sag":"çekişme","sol":"sevinç","sayfa":439},
+{"id":"S-56","uzuv":"ayak serçe parmağı","sag":"rızık ve mal","sol":"rızık ve mal","sayfa":439}
+  ]
+}
+,
+"oniki_hayvan_takvimi": {
+  "kaynak_adi": "Sâl-i Türkân (Türk Yılı) manzumesi, 87 beyit, s.294-301",
+  "hesaplama": {
+    "yil_baslangici": "Güneş yılı esaslıdır ve Koç (Hamel) burcunun girişiyle, yani Nevruz (~21 Mart) ile başlar (beyit 21).",
+    "donemler": "Yıl üç dönemdir, her biri 4 ay (beyit 20): başı ~21 Mart-20 Temmuz, ortası ~21 Temmuz-20 Kasım, sonu ~21 Kasım-20 Mart.",
+    "cevrim_onerisi": "Modern uygulama için 12'lik çevrim Çin-Türk takvim hizasıyla kurulabilir (referans: 2020=Sıçan). Metnin kendi hicri-rumi formülü s.295'te verilir (OCR'de bozuk; akademik neşirden teyit edilmeli).",
+    "temel_ilke": "Beyit 22: Kişi doğduğu yılı bulursa mizacı, huyu ve hâlleri o yıla hâkim hayvanın tesirinde bilinir."
+  },
+  "yillar": [
+{"sira":1,"ad":"Sıçan (Fare)","yil_karakteri":["hoşluk ve bolluk","yıl ortası yağışlı","yıl sonu karışıklık","kış uzun ve soğuk"],"dogum":{"basi":"zeki, atılgan, güzel huylu","ortasi":"yalana meyilli, huyu zor (yumuşat)","sonu":"kıskanç ve kurnaz (yumuşat)"},"sayfa":"295-300"},
+{"sira":2,"ad":"Sığır","yil_karakteri":["hastalık ve baş ağrısı çok","yöneticilere fitne","davara kıran","kış sert ve kısa"],"dogum":{"basi":"başkalarının işini omuzlayan, emektar","ortasi":"nurlu, zeki, iyi huylu, sevilen","sonu":"gönlü yaralı, hassas bünyeli (yumuşat)"},"sayfa":"296-300"},
+{"sira":3,"ad":"Pars (Kaplan)","yil_karakteri":["öfke ve düşmanlık artar","sözünden dönme çoğalır","deprem ve deniz kazaları","kış kısa ama çok soğuk, sular bol"],"dogum":{"basi":"yüce gönüllü, yumuşak yüzlü","ortasi":"olgun, kâmil","sonu":"ürkek ve üşengeç (yumuşat)"},"sayfa":"296-300"},
+{"sira":4,"ad":"Tavşan","yil_karakteri":["bolluk ve bereket","barış ve sağlık","dört mevsim yerli yerinde"],"dogum":{"basi":"varlıklı; huyu sert ama vefalı","ortasi":"güzel, hoş","sonu":"kırıcı, sert mizaçlı (yumuşat)"},"sayfa":"296-301"},
+{"sira":5,"ad":"Balık","yil_karakteri":["savaş ve karışıklık çok","buğday-arpa bol ve ucuz","kar-yağmur bol; kış uzun ve sert"],"dogum":{"basi":"toy ve savruk (yumuşat)","ortasi":"halim selim, yumuşak","sonu":"aksi ve pervasız (yumuşat)"},"sayfa":"297-301"},
+{"sira":6,"ad":"Yılan","yil_karakteri":["pahalılık","kıtlık ve üzüntü","kış kısa ve ılık"],"dogum":{"basi":"sessiz, kendi hâlinde, bilgili, işleri güzel","ortasi":"huysuz tavırlı (yumuşat)","sonu":"aksi mizaçlı (yumuşat)"},"sayfa":"297-301"},
+{"sira":7,"ad":"At","yil_karakteri":["savaş ve fitne","yaz güzel, tahıl bol","davara sıkıntı; meyveye zarar; kış ılık-uzun"],"dogum":{"basi":"zahmet çeker ama sevgi ve hikmet doludur","ortasi":"iyi işli, hoş huylu","sonu":"gamlı ve sivri dilli (yumuşat)"},"sayfa":"297-301"},
+{"sira":8,"ad":"Koyun","yil_karakteri":["gam artar; gemilere zarar","savaş çabuk barışa erer","hayır işleyen çoğalır; kış ılık-uzun"],"dogum":{"basi":"dertli, içli","ortasi":"sakin, huzurlu (âsûde)","sonu":"yorgun ve küskün (yumuşat)"},"sayfa":"297-298"},
+{"sira":9,"ad":"Maymun","yil_karakteri":["hayırsız yıl; hırsızlık artar","halka sitem çok","deve ve ata hastalık; kış kısa-soğuk; üzüm az"],"dogum":{"basi":"yüzü sıradan ama güleç, neşeli, iyi huylu","ortasi":"kıskanç (yumuşat)","sonu":"verimini geç bulan (bî-sûd - yumuşatıldı)"},"sayfa":"297-298"},
+{"sira":10,"ad":"Tavuk","yil_karakteri":["hastalık az","tahıl ucuz, meyve bol","kış ılık-uzun; (metinde gebelerle ilgili olumsuz kehanet var - KULLANMA)"],"dogum":{"basi":"güzel ve alımlı ama kısmeti dar (yumuşat: geç açılan kısmet)","ortasi":"iğneleyici, çevresiyle gergin (yumuşat)","sonu":"cömert, misafirsever"},"sayfa":"298"},
+{"sira":11,"ad":"Köpek (İt)","yil_karakteri":["ekmek-tahıl pahalı","ölüm ve hırsızlık çok","kış hafif, meyve ucuz; kışın emniyet"],"dogum":{"basi":"sivri dilli, hırslı, iştahlı (yumuşat)","ortasi":"kavgacı (yumuşat: mücadeleci)","sonu":"kanaatkâr ve vefalı"},"sayfa":"298"},
+{"sira":12,"ad":"Domuz","yil_karakteri":["ileri gelenlere hastalık","yöneticiler arası çekişme ve savaş","buğday çok, darıya afet; halk yer değiştirir; hırsız çok; kış ılık-uzun"],"dogum":{"basi":"sivri dilli ve kendine güveni tam (hîş-pesend yumuşatıldı)","ortasi":"yalana meyilli (yumuşat)","sonu":"halim ve hayra istekli"},"sayfa":"298"}
+  ],
+  "uygulama_notu": "Olumsuz doğum hükümleri burç dili gibi 'gölge yönün' çerçevesinde, yapıcı dille verilmelidir; 'yumuşat' etiketli ifadeler için nihai metinler içerik editöründen geçmelidir. Yıl kehanetleri (savaş, hastalık) yalnız tarihsel merak içeriği olarak sunulmalı, güncel yıl tahmini gibi pazarlanMAmalıdır."
+},
+"ruya_modulu": {
+  "kalp_hayvan_sembolleri": {
+    "ilke": "s.445-446: Kötü huylar kalpte hayvan suretleriyle temsil edilir; bir huyu yenen kişi rüyada o hayvana galip gelir (eşeğe binmek = o dürtüyü dizginlemek), yenilen altında kalır. Proto-arketip fikri: Jung'un gölge kavramıyla sentez köprüsü kurmaya çok uygun.",
+    "esleme": {"kibir":"kaplan","saldırganlık/üstün gelme":"aslan","haset":"kurt","öfke (gadab)":"köpek","hile":"tilki","gaflet":"tavşan","cinsel dürtü":"eşek","mide düşkünlüğü":"koyun","oburluk":"inek","tamah":"karınca","cimrilik":"fare","kin":"beyaz deve","vecd/coşku":"kırmızı deve","düşmanlık":"yılan","eziyet":"akrep","vesvese":"sarı arı"},
+    "sayfa":"445"
+  },
+  "vakia_ruya_ayrimi": "s.446-447: Kalbe aracısız gelen görüntü 'vâkıa'dır ve aynen çıkar; aracıyla gelen 'rüya'dır ve tabir ister.",
+  "harf_tabiri": {
+    "ilke": "s.446-448: Rüyada görülen şeyin Arapça adının İLK HARFİNE göre yorum yapılır.",
+    "harfler": {"elif":"ululuk, itibar artışı","be":"beden ve can rahatlığı","te":"dileğin gerçekleşmesi","se":"rakibe üstünlük","cim":"fırsat ve kazanç","ha":"izzet ve saadet","hı":"murada erme","dal":"zahmet ve güçlük","zel":"mal, mülk, ikbal","rı":"iyi talih","ze":"sağlam inanç, gönül metaneti","sin":"emniyet","şın":"pişmanlık","sad":"murada erme, kâm alma","dad":"mal bulma","tı":"rakibin etkisiz kalması","zı":"gönül hüznü","ayn":"gönül karışıklığı","gayn":"kendine yazık etme","fe":"rütbe/terfi","kaf":"şansın açılması, bolluk","kef":"beklenmedik sevinç","lam":"güven ve hoş vakit","mim":"murada erme","nun":"gönül kırıklığı","vav":"işlerin kolaylaşması","he":"hüzün ve gözyaşı","ye":"ibadet ve iyilikte muvaffakiyet"},
+    "uygulama_fikri": "Kullanıcı rüyasında gördüğü nesneyi yazar; uygulama Arapça/Osmanlıca karşılığının ilk harfini bulur ve tabiri gösterir - LLM için birebir uygun mini özellik.",
+    "sayfa":"446-448"
+  }
+},
+"nefs_mertebeleri": {
+  "kaynak": "s.435 (kıyafet bölümünün kapanışı)",
+  "ilke": "Kıyafet delilleri 'hayvani nefsin' ahlakını gösterir; nefs yükseldikçe bu deliller hükmünü yitirir - uygulamanın gelişim anlatısı için mükemmel çerçeve.",
+  "mertebeler": [
+    {"ad":"Emmâre","tarif":"Hayvani nefsin esiri; deliller onu olduğu gibi anlatır"},
+    {"ad":"Levvâme","tarif":"Bazen yenilen bazen yenen; gel-gitli"},
+    {"ad":"Mülhime","tarif":"Hayvani yana hep galip; ilhamla yürür"},
+    {"ad":"Mutmainne","tarif":"Kavgası barışa dönmüş; işaretler onu bağlamaz"}
+  ],
+  "uygulama_fikri": "Raporun kapanışı: 'Kıyafetname senin hammaddeni anlatır; ne yapacağın mertebeni belirler' - metnin KENDİ determinizm panzehiri."
+},
+"icerik_tohumlari": [
+  "Beden şehri alegorisi (s.444-445): ruh sultan, akıl vezir, duyular zanaatkârlar - onboarding hikayesi",
+  "Mü'minin ferasetinden korkun hadisi aktarımı (s.435) - feraset kavramı tanıtımı",
+  "Nevi 3 kapanış beyti: Ne kimse senden incinsin, ne sen bir kimseden incin (s.419) - marka mottosu adayı",
+  "Rüya fizyolojisi manzumesi (s.446-447): uykuda duyuların kalbe inmesi - rüya modülü giriş metni"
+],
+"haric_envanteri": [
+  {"icerik":"Yedi iklim / bölge-halk karakterleri","sayfa":"290-294","neden":"Coğrafya-etnisite üzerinden toplu karakter yargısı: kesin HARİÇ (AB YZ Yasası hassas nitelik çıkarımı + etik)"},
+  {"icerik":"Kadınların 32 güzellik alameti","sayfa":"428-429","neden":"Güzellik puanlaması - 01 no'lu dosyada kayıtlı, haric"},
+  {"icerik":"Kadınlar hakkında aşağılayıcı manzume","sayfa":"433-434","neden":"Cinsiyet aşağılaması; dönem zihniyeti olarak not edildi, uygulamaya girmez"},
+  {"icerik":"Hıfzıssıhha perhiz/ilaç/gıda bölümleri","sayfa":"474-500+","neden":"Sağlık tavsiyesi riski (mağaza + tıbbi sorumluluk); yalnız 'tarihsel merak' içeriği olabilir, kişiye öneri olamaz"},
+  {"icerik":"Tavuk yılına dair gebelik kehaneti","sayfa":"298","neden":"Gebelere yönelik olumsuz kehanet - gösterilmez"}
+]
+}
