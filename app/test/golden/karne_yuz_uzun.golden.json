@@ -1,0 +1,72 @@
+{
+  "eksikler": [],
+  "esikSurumu": "gecici-1",
+  "itidal": {
+    "skor": 0.900604,
+    "olumluAgirlik": 2.678763,
+    "olumsuzAgirlik": 1.333329,
+    "net": 1.345434,
+    "dengeMi": true,
+    "bonusMetin": "Kıyafetnamenin altın kuralı: her yeri ölçülü olan, şüphesiz gönül çeler."
+  },
+  "kalibrasyon": "gecici",
+  "surum": "content/v1",
+  "yorumlar": [
+    {
+      "bolge": "alın",
+      "kuralId": "BB-19",
+      "metin": "Dengeli alın, metinde emniyetin işaretidir.",
+      "yon": "olumlu",
+      "guven": "A",
+      "aktivasyon": 1.0
+    },
+    {
+      "bolge": "burun",
+      "kuralId": "BB-51",
+      "metin": "Metin uzun burnu ağır kavrayışla eşler.",
+      "yon": "olumsuz",
+      "guven": "A",
+      "aktivasyon": 0.333335
+    },
+    {
+      "bolge": "burun",
+      "kuralId": "BB-54",
+      "metin": "Metin düşük burun ucunu temkinle karşılar.",
+      "yon": "olumsuz",
+      "guven": "A",
+      "aktivasyon": 0.333344
+    },
+    {
+      "bolge": "dudak",
+      "kuralId": "BB-71",
+      "metin": "Kalın dudak, metinde çabuk parlayan bir mizaçla eşleşir.",
+      "yon": "olumsuz",
+      "guven": "A",
+      "aktivasyon": 0.333317
+    },
+    {
+      "bolge": "göz",
+      "kuralId": "BB-35",
+      "metin": "Süzgün bakış metinde zarafete yorulur.",
+      "yon": "olumlu",
+      "guven": "A",
+      "aktivasyon": 0.678763
+    },
+    {
+      "bolge": "yüz",
+      "kuralId": "BB-43",
+      "metin": "Metin çok uzun yüzü anlatırken süslemeye yorar.",
+      "yon": "olumsuz",
+      "guven": "A",
+      "aktivasyon": 0.333333
+    },
+    {
+      "bolge": "çene",
+      "kuralId": "BB-77",
+      "metin": "Dengeli çene, metinde aklın ve güzelliğin buluşmasıdır.",
+      "yon": "olumlu",
+      "guven": "A",
+      "aktivasyon": 1.0
+    }
+  ]
+}

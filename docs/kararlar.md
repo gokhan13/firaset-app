@@ -43,3 +43,9 @@ Her önemli karar buraya bir satır: NE, NEDEN, TARİH. Kararı değiştirmek = 
   B-metriklerini kalibrasyon (Faz 1) tamamlanana dek **düşük ağırlıkla** kullanır; dilim eşikleri Görev 3'e
   gömülmez. İlgili: BB-40b tek belgeli kapsam istisnası (IPD boyutu normalize eder); Faz 1'de saç/alın
   segmentasyonuyla yeniden değerlendirilir. [[D-016]]
+- **D-018** (2026-07-05) Karne motoru geçici dilim eşikleri "kanonik yüz = normal" varsayımına dayanır:
+  merkezler `yuz_dengeli` fikstürünün oran değerlerinden türetildi (merkez ± %15 bant). SINIR: bu bir
+  popülasyon normu DEĞİL; gerçek kullanıcılar bazı metriklerde sistematik olarak alt/üst dilime düşebilir
+  (ör. ortalama yüz oranları etnik/yaş dağılımına göre kayar). NEDEN KABUL: kalibrasyon verisi Faz 1'de
+  gelecek; o zamana dek her karne `kalibrasyon: gecici` damgası taşır ve motor mantığı sabit kalır
+  (yalnız `esikler_gecici.dart` değişir → `esikler_v1`). Güven-B metrikler ayrıca düşük ağırlıkta. [[D-017]]

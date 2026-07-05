@@ -1,0 +1,48 @@
+{
+  "eksikler": [],
+  "esikSurumu": "gecici-1",
+  "itidal": {
+    "skor": 0.95,
+    "olumluAgirlik": 4.0,
+    "olumsuzAgirlik": 0.0,
+    "net": 4.0,
+    "dengeMi": false,
+    "bonusMetin": "Kıyafetnamenin altın kuralı: her yeri ölçülü olan, şüphesiz gönül çeler."
+  },
+  "kalibrasyon": "gecici",
+  "surum": "content/v1",
+  "yorumlar": [
+    {
+      "bolge": "alın",
+      "kuralId": "BB-19",
+      "metin": "Dengeli alın, metinde emniyetin işaretidir.",
+      "yon": "olumlu",
+      "guven": "A",
+      "aktivasyon": 1.0
+    },
+    {
+      "bolge": "ağız",
+      "kuralId": "BB-60",
+      "metin": "Büyük ağız metinde yiğitliğin işaretidir.",
+      "yon": "olumlu",
+      "guven": "A",
+      "aktivasyon": 1.0
+    },
+    {
+      "bolge": "göz",
+      "kuralId": "BB-35",
+      "metin": "Süzgün bakış metinde zarafete yorulur.",
+      "yon": "olumlu",
+      "guven": "A",
+      "aktivasyon": 1.0
+    },
+    {
+      "bolge": "çene",
+      "kuralId": "BB-77",
+      "metin": "Dengeli çene, metinde aklın ve güzelliğin buluşmasıdır.",
+      "yon": "olumlu",
+      "guven": "A",
+      "aktivasyon": 1.0
+    }
+  ]
+}
