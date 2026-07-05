@@ -36,3 +36,10 @@ Her önemli karar buraya bir satır: NE, NEDEN, TARİH. Kararı değiştirmek = 
   ÇIKIŞ PLANI: `lib/olcum/landmark_motoru.dart`'taki `LandmarkMotoru` arayüzü sınır; paket yalnız
   `mediapipe_landmark_motoru.dart`'ta görünür → native federated plugine geçiş tek implementasyon dosyası
   değişimi. Not: kullanıcı "D-014" demişti ama o numara org kararına ait; bu kayıt D-016.
+- **D-017** (2026-07-05) Görev 3 oran vektörü Tier-B metrikleri (`goz_derinlik_z`, `yuz_kontur_z`,
+  `burun_kemer_derecesi`, `burun_uc_yuvarlaklik`, `kas_uc_incelik`) hesaplar ve her metriği `guven` (A/B)
+  alanıyla etiketler. NE: z/profil bağımlı, önden mesh'te düşük güvenilirlikli metrikler yine üretilir.
+  NEDEN: `kanal=kamera_mesh` kurallarıyla birebir kapsama korunsun. NASIL UYGULANIR: karne motoru
+  B-metriklerini kalibrasyon (Faz 1) tamamlanana dek **düşük ağırlıkla** kullanır; dilim eşikleri Görev 3'e
+  gömülmez. İlgili: BB-40b tek belgeli kapsam istisnası (IPD boyutu normalize eder); Faz 1'de saç/alın
+  segmentasyonuyla yeniden değerlendirilir. [[D-016]]

@@ -1,0 +1,86 @@
+{
+  "surum": "content/v1",
+  "hesaplayiciSurum": 1,
+  "oranlar": {
+    "agiz_genislik_orani": {
+      "deger": 1.285714,
+      "guven": "A"
+    },
+    "alin_genislik_orani": {
+      "deger": 1.571429,
+      "guven": "A"
+    },
+    "burun_genislik_orani": {
+      "deger": 0.5,
+      "guven": "A"
+    },
+    "burun_kemer_derecesi": {
+      "deger": 0.053571,
+      "guven": "B"
+    },
+    "burun_uc_dusuklugu": {
+      "deger": 0.392857,
+      "guven": "A"
+    },
+    "burun_uc_yuvarlaklik": {
+      "deger": 0.714286,
+      "guven": "B"
+    },
+    "burun_uzunluk_orani": {
+      "deger": 0.785714,
+      "guven": "A"
+    },
+    "cene_genislik_orani": {
+      "deger": 1.714286,
+      "guven": "A"
+    },
+    "dudak_kalinlik_orani": {
+      "deger": 0.321429,
+      "guven": "A"
+    },
+    "goz_aciklik_orani": {
+      "deger": 0.415227,
+      "guven": "A"
+    },
+    "goz_boyut_orani": {
+      "deger": 0.430057,
+      "guven": "A"
+    },
+    "goz_derinlik_z": {
+      "deger": 0.178571,
+      "guven": "B"
+    },
+    "kas_araligi_orani": {
+      "deger": 0.571429,
+      "guven": "A"
+    },
+    "kas_kalinlik_orani": {
+      "deger": 0.142857,
+      "guven": "A"
+    },
+    "kas_kavis_derecesi": {
+      "deger": 2.651635,
+      "guven": "A"
+    },
+    "kas_uc_incelik": {
+      "deger": 0.559017,
+      "guven": "B"
+    },
+    "kas_uzunluk_orani": {
+      "deger": 0.571429,
+      "guven": "A"
+    },
+    "yuz_dolgunluk_orani": {
+      "deger": 1.428571,
+      "guven": "A"
+    },
+    "yuz_kontur_z": {
+      "deger": 0.428571,
+      "guven": "B"
+    },
+    "yuz_uzunluk_orani": {
+      "deger": 1.25,
+      "guven": "A"
+    }
+  }
+}
