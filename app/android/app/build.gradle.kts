@@ -19,7 +19,8 @@ android {
         applicationId = "com.aboa.firaset"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
+        // mediapipe_face_mesh minSdk 24 gerektirir (flutter varsayilani 21).
+        minSdk = 24
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName

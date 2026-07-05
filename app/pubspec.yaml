@@ -41,6 +41,8 @@ dependencies:
 
   # State yonetimi (bkz. CLAUDE.md teknik kararlar).
   flutter_riverpod: ^2.6.1
+  camera: ^0.12.0+1
+  mediapipe_face_mesh: 1.10.1
 
 dev_dependencies:
   flutter_test:

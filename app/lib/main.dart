@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'kamera/kamera_ekrani.dart';
 import 'l10n/app_localizations.dart';
 
 void main() {
@@ -53,6 +54,14 @@ class HomePage extends ConsumerWidget {
           children: [
             Text(l10n.homeTapCountLabel),
             Text('$count', style: Theme.of(context).textTheme.headlineMedium),
+            const SizedBox(height: 24),
+            FilledButton.icon(
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute<void>(builder: (_) => const KameraEkrani()),
+              ),
+              icon: const Icon(Icons.face_retouching_natural),
+              label: Text(l10n.startScanButton),
+            ),
             const SizedBox(height: 24),
             // Altin Kural 8: her ekranda gorunur "eglence ve kultur" ibaresi.
             Text(

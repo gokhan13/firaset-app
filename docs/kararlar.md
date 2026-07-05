@@ -29,3 +29,10 @@ Her önemli karar buraya bir satır: NE, NEDEN, TARİH. Kararı değiştirmek = 
   Neden: kurucunun alan adı aboa.com.tr; App Store/Play kalıcı kimliği. `flutter create --org com.aboa`.
 - **D-015** (2026-07-05) `app/pubspec.lock` commit'lenir (kök `.gitignore`'da `!app/pubspec.lock` istisnası).
   Neden: uygulama projesi; bağımlılık sürümlerini kilitlemek determinizmi güçlendirir (Altın Kural 3).
+- **D-016** (2026-07-05) Yüz landmark motoru: **`mediapipe_face_mesh` 1.10.1** (TAM sabit sürüm).
+  NE: topluluk paketi, iris ile 478 3B landmark, iOS+Android, BSD-3. NEDEN: tek pakette çapraz platform,
+  aktif bakım, POC hızı; MediaPipe Face Mesh çözümü Face Landmarker'a **işlevsel eşdeğer** (ikisi de 478 nokta;
+  oran hesabı için blendshape gerekmez). RİSK: çekirdek yeteneğin topluluk paketine bağımlılığı.
+  ÇIKIŞ PLANI: `lib/olcum/landmark_motoru.dart`'taki `LandmarkMotoru` arayüzü sınır; paket yalnız
+  `mediapipe_landmark_motoru.dart`'ta görünür → native federated plugine geçiş tek implementasyon dosyası
+  değişimi. Not: kullanıcı "D-014" demişti ama o numara org kararına ait; bu kayıt D-016.

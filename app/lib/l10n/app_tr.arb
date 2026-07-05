@@ -11,5 +11,32 @@
   "entertainmentDisclaimer": "Eglence ve kultur amaclidir.",
   "@entertainmentDisclaimer": {
     "description": "Her raporun ve onboarding'in altinda gorunen ibare (CLAUDE.md Altin Kural 8)."
+  },
+  "startScanButton": "Taramayi baslat",
+  "@startScanButton": {
+    "description": "Ana ekranda kamera POC ekranini acan dugme."
+  },
+  "pocTitle": "Yuz taramasi (POC)",
+  "@pocTitle": {
+    "description": "Kamera + yuz mesh POC ekraninin basligi."
+  },
+  "landmarkCountFound": "{count} nokta bulundu",
+  "@landmarkCountFound": {
+    "description": "Canli olarak bulunan landmark noktasi sayisi.",
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "noFaceDetected": "Yuz bulunamadi",
+  "@noFaceDetected": {
+    "description": "Kare icinde yuz algilanmadiginda gosterilen mesaj."
+  },
+  "cameraPermissionDenied": "Kamera izni verilmedi. Taramayi kullanmak icin ayarlardan izin verin.",
+  "@cameraPermissionDenied": {
+    "description": "Kamera izni reddedildiginde gosterilen nazik yonlendirme."
+  },
+  "cameraError": "Kamera baslatilamadi.",
+  "@cameraError": {
+    "description": "Kamera baslatilamadiginda gosterilen genel hata mesaji."
   }
 }

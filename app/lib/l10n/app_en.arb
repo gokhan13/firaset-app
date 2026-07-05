@@ -2,5 +2,16 @@
   "@@locale": "en",
   "appTitle": "Firaset",
   "homeTapCountLabel": "You have tapped this many times:",
-  "entertainmentDisclaimer": "For entertainment and cultural purposes only."
+  "entertainmentDisclaimer": "For entertainment and cultural purposes only.",
+  "startScanButton": "Start scan",
+  "pocTitle": "Face scan (POC)",
+  "landmarkCountFound": "{count} points found",
+  "@landmarkCountFound": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "noFaceDetected": "No face detected",
+  "cameraPermissionDenied": "Camera permission denied. Enable it in settings to use scanning.",
+  "cameraError": "Could not start the camera."
 }
