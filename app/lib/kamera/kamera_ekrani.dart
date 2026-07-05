@@ -8,6 +8,20 @@ import '../l10n/app_localizations.dart';
 import '../olcum/landmark_motoru.dart';
 import 'kamera_denetleyici.dart';
 import 'nokta_ustu_boyayici.dart';
+import 'onizleme_donusumu.dart';
+
+// Kozmetik yönelim ayarları. Hizalama, doku ve noktaların AYNI dönüşümü
+// paylaşmasıyla garanti; bunlar yalnızca görüntünün dik/aynalı görünmesini
+// ayarlar. Cihazda debug işaretçileriyle (iris yeşil, çene kırmızı) ayarla:
+// noktalar dururken yüze oturuyorsa dönüşüm doğrudur.
+const int kOnizlemeCeyrekDonus =
+    0; // 0..3 saat yönü; görüntü yan yatıksa artır.
+const bool kOnizlemeAyna = true; // ön kamera selfie aynası.
+// Landmark motoru mirrorHorizontal:true kullanıyor (lib/olcum) → x önceden aynalı.
+// Bu, ingest'te tek seferlik geri alınır. Motor ayarı değişirse burayı çevir.
+const bool kMotorAynaladi = true;
+// Hizalama doğrulama işaretçileri (iris/çene). Doğrulama sonrası false yapılabilir.
+const bool kDebugHizalama = true;
 
 /// Kamera + yuz mesh POC ekrani.
 ///
@@ -149,11 +163,11 @@ class _KameraEkraniState extends ConsumerState<KameraEkrani> {
 
   Widget _onizleme(AppLocalizations l10n) {
     final controller = _controller!;
+    final ham = controller.value.previewSize;
     return Stack(
       fit: StackFit.expand,
       children: [
-        CameraPreview(controller),
-        CustomPaint(painter: NoktaUstuBoyayici(_noktalar)),
+        if (ham != null) _kameraKatmani(controller, ham),
         Positioned(
           top: 16,
           left: 0,
@@ -173,6 +187,55 @@ class _KameraEkraniState extends ConsumerState<KameraEkrani> {
           child: _rozet(l10n.entertainmentDisclaimer),
         ),
       ],
+    );
+  }
+
+  /// Ham önizleme dokusu + landmark noktaları TEK ortak dönüşümle.
+  ///
+  /// `buildPreview()` (CameraPreview değil) sensör dokusunu ham verir; noktalar
+  /// da aynı sensör uzayında olduğundan ikisi aynı [OnizlemeDonusumu] + saran
+  /// `FittedBox(cover)` ile hizalı kalır. Cover kırpma en/boy oranını korur
+  /// (ezme yok).
+  Widget _kameraKatmani(CameraController controller, Size ham) {
+    final donusum = OnizlemeDonusumu(
+      hamBoyut: ham,
+      ceyrekDonus: kOnizlemeCeyrekDonus,
+      ayna: kOnizlemeAyna,
+      motorAynaladi: kMotorAynaladi,
+    );
+    final disp = donusum.gosterimBoyutu;
+    return ClipRect(
+      child: FittedBox(
+        fit: BoxFit.cover,
+        child: SizedBox(
+          width: disp.width,
+          height: disp.height,
+          child: Stack(
+            fit: StackFit.expand,
+            children: [
+              // Ham doku: noktalarla aynı rotasyon + kozmetik ayna.
+              Transform.flip(
+                flipX: kOnizlemeAyna,
+                child: RotatedBox(
+                  quarterTurns: kOnizlemeCeyrekDonus,
+                  child: SizedBox(
+                    width: ham.width,
+                    height: ham.height,
+                    child: controller.buildPreview(),
+                  ),
+                ),
+              ),
+              CustomPaint(
+                painter: NoktaUstuBoyayici(
+                  noktalar: _noktalar,
+                  donusum: donusum,
+                  debug: kDebugHizalama,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 
