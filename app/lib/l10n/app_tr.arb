@@ -1,0 +1,15 @@
+{
+  "@@locale": "tr",
+  "appTitle": "Firaset",
+  "@appTitle": {
+    "description": "Uygulama adi (baslik cubugu ve pencere basligi)."
+  },
+  "homeTapCountLabel": "Su ana kadar bu kadar dokundun:",
+  "@homeTapCountLabel": {
+    "description": "Iskelet ana ekrandaki gecici sayac etiketi."
+  },
+  "entertainmentDisclaimer": "Eglence ve kultur amaclidir.",
+  "@entertainmentDisclaimer": {
+    "description": "Her raporun ve onboarding'in altinda gorunen ibare (CLAUDE.md Altin Kural 8)."
+  }
+}

@@ -4,8 +4,12 @@
 **/.flutter-plugins*
 **/.packages
 **/pubspec.lock
+# Uygulama projesinde lock commit'lenir (determinizm, D-015)
+!app/pubspec.lock
 *.g.dart
 *.freezed.dart
+# Flutter gen-l10n ciktisi (pub get / gen-l10n ile uretilir)
+app/lib/l10n/app_localizations*.dart
 # IDE
 .idea/
 *.iml

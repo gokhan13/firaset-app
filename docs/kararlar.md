@@ -23,3 +23,9 @@ Her önemli karar buraya bir satır: NE, NEDEN, TARİH. Kararı değiştirmek = 
 - **D-011** (2026-07-05) MVP ölçüm kapsamı yalnız kamera_mesh kuralları; el/ses/öz-bildirim kanalları v1.1+.
   Neden: odak + App Review basitliği.
 - **D-012** (2026-07-05) Backend'siz MVP; premium için ince proxy v1.1. API anahtarı istemciye gömülmez.
+- **D-013** (2026-07-05) Flutter sürümü **3.44.4** (stable, Dart 3.12.2) pinlendi; `app/.flutter-version`
+  ve CI aynı sürümü kullanır. Neden: determinizm golden testleri sabit SDK ister (Altın Kural 3).
+- **D-014** (2026-07-05) Uygulama org/bundle öneki **com.aboa** (bundle: `com.aboa.firaset`).
+  Neden: kurucunun alan adı aboa.com.tr; App Store/Play kalıcı kimliği. `flutter create --org com.aboa`.
+- **D-015** (2026-07-05) `app/pubspec.lock` commit'lenir (kök `.gitignore`'da `!app/pubspec.lock` istisnası).
+  Neden: uygulama projesi; bağımlılık sürümlerini kilitlemek determinizmi güçlendirir (Altın Kural 3).

@@ -1,0 +1,41 @@
+name: CI
+
+# Flutter uygulamasi (app/) icin temel kalite kapisi: format + analyze + test.
+# Flutter surumu app/.flutter-version ile ayni pinli surumdur (bkz. docs/kararlar.md D-013).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+defaults:
+  run:
+    working-directory: app
+
+jobs:
+  flutter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.44.4
+          cache: true
+
+      - name: Bagimliliklar
+        run: flutter pub get
+
+      - name: Yerellestirme kodu uret
+        run: flutter gen-l10n
+
+      - name: Bicim kontrolu
+        run: dart format --set-exit-if-changed .
+
+      - name: Statik analiz
+        run: flutter analyze
+
+      - name: Testler
+        run: flutter test

@@ -1,0 +1,8 @@
+# Yerellestirme (flutter gen-l10n) yapilandirmasi.
+# ARB dosyalari lib/l10n altinda; tr ana (template), en iskelet.
+arb-dir: lib/l10n
+template-arb-file: app_tr.arb
+output-localization-file: app_localizations.dart
+output-dir: lib/l10n
+# .of(context) non-null donsun (her ekranda "!" gerekmesin).
+nullable-getter: false
